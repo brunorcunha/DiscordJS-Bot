@@ -1,0 +1,21 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "nodemon Discord.js"
+  },
+  "dependencies": {
+    "discord-emoji": "^1.1.1",
+    "discord.js": "^11.5.1",
+    "opusscript": "0.0.7",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "ytdl-core": "^0.29.5",
+    "ytsearcher": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
