@@ -2,6 +2,8 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 const musicbot = require('./musicbot.js')
 
+const token = require('./config/token.js').token
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
   client.user.setPresence({
@@ -27,4 +29,4 @@ client.on('message', (msg) => {
   }
 })
 
-client.login('NjEwMjk2Nzk4MjUwMjcwNzMw.XVDNTw.Tk68IlPjKBhILABjK2G4pq5SnOQ')
+client.login(token)

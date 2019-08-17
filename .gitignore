@@ -2,6 +2,7 @@
 /dist
 /functions
 /reports
+/config/*.js
 /test/unit/coverage
 /test/e2e/reports
 
