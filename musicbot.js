@@ -2,7 +2,9 @@ const Discord = require('discord.js')
 const emoji = require('discord-emoji')
 const ytdl = require('ytdl-core')
 const { YTSearcher } = require('ytsearcher')
-const searcher = new YTSearcher('AIzaSyCn-52FiD-avrJhKygezqbNIQcqyKXzLQw')
+
+const YtToken = require('./config/token.js').yt
+const searcher = new YTSearcher(YtToken)
 
 let playlist = {
   songs: new Array(),
